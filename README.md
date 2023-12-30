@@ -1,31 +1,30 @@
 
 
-# Prérequis :
+## Prerequisites:
 
-- Un VPS sous Ubuntu 20.04 (chez http://txhost.fr ou autre)
+A VPS running Ubuntu 20.04 (from http://txhost.fr or elsewhere)
 
-
-# Lien de l'installation :
+Installation Link:
 ```
 bash <(wget -O - 'https://raw.githubusercontent.com/TxHost/Tx-FiveM/master/tx-fivem.sh')
 
 ```
-## Durée de l'installation 
+## Installation duration 
 
-La durée d'installation sur un VPS TxHost est de 02m:12s
+The installation time on a TxHost VPS is 02m:12s
 
-# Start & Restart & Stop & Status votre serveur avec les commandes system !
+# Start & Restart & Stop & Status your server with system commands! !
 ```
-systemctl tx-fivem start = Démarrer
+systemctl tx-fivem start = Start
 
-systemctl tx-fivem restart = Redémarrer
+systemctl tx-fivem restart = Restart
 
-systemctl tx-fivem stop = Stoper
+systemctl tx-fivem stop = Stop
 
-systemctl tx-fivem status = Avoir le status du serveur
+systemctl tx-fivem status = Status
 ```
 
-# Démarage de votre serveur sans les commandes system !
+# Starting your server without system commands !
 
 ```
 tx-start
